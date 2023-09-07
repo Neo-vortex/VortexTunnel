@@ -2,6 +2,8 @@
 ## Introduction
 This documentation provides an overview of the Custom Raw Socket Protocol, a high-performance communication protocol designed for secure and efficient data transfer. The protocol combines AES-GCM encryption and Diffie-Hellman key exchange to ensure confidentiality, authenticity, and efficient communication.
 
+This Custom Raw Socket Protocol leverages the power of modern .NET technologies, specifically Pipes and Channels, to deliver exceptional performance. By utilizing .NET's built-in support for asynchronous communication through pipes and channels, we've engineered a protocol that excels in handling high volumes of data efficiently and concurrently. These features allow for the seamless flow of data between sender and receiver, maximizing throughput while minimizing resource overhead. The result is a robust communication solution that harnesses the full potential of .NET's capabilities, ensuring optimal performance in various scenarios.
+
 ## Key Features
 * Fast and performant communication.
 * AES-GCM encryption for data confidentiality.
