@@ -3,11 +3,12 @@
 This documentation provides an overview of the Custom Raw Socket Protocol, a high-performance communication protocol designed for secure and efficient data transfer. The protocol combines AES-GCM encryption and Diffie-Hellman key exchange to ensure confidentiality, authenticity, and efficient communication.
 
 ## Key Features
-Fast and performant communication.
-AES-FCM encryption for data confidentiality.
-Diffie-Hellman key exchange for secure key generation.
-Scalable and efficient design.
-Benchmarked performance of handling 500,000 messages in 0.96 seconds on an Intel Core i7-12700 processor.
+* Fast and performant communication.
+* AES-GCM encryption for data confidentiality.
+* Diffie-Hellman key exchange for secure key generation.
+* Scalable and efficient design.
+* Run on both Windows (with Cng) and Unix (with openSSL)
+* Benchmarked performance of handling 500,000 messages ('hello world' byte array) in 0.96 seconds on an Intel Core i7-12700 processor.
 ## Getting Started
 ### Prerequisites
 Before using the Custom Raw Socket Protocol, ensure you have the following prerequisites:
