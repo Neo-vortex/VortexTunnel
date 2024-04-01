@@ -1,8 +1,8 @@
-# Custom Raw Socket Protocol  (VortexTunnel)
+# VortexTunnel Protocol
 ## Introduction
-This documentation provides an overview of the Custom Raw Socket Protocol, a high-performance communication protocol designed for secure and efficient data transfer. The protocol combines AES-GCM encryption and Diffie-Hellman key exchange to ensure confidentiality, authenticity, and efficient communication.
+This documentation provides an overview of Vortex Tunnel Protocol, a high-performance communication protocol designed for secure and efficient data transfer. The protocol combines AES-GCM encryption and Diffie-Hellman key exchange to ensure confidentiality, authenticity, and efficient communication.
 
-This Custom Raw Socket Protocol leverages the power of modern .NET technologies, specifically Pipes and Channels, to deliver exceptional performance. By utilizing .NET's built-in support for asynchronous communication through pipes and channels, we've engineered a protocol that excels in handling high volumes of data efficiently and concurrently. These features allow for the seamless flow of data between sender and receiver, maximizing throughput while minimizing resource overhead. The result is a robust communication solution that harnesses the full potential of .NET's capabilities, ensuring optimal performance in various scenarios.
+VortexTunnel Protocol leverages the power of modern .NET technologies, specifically Pipes and Channels, to deliver exceptional performance. By utilizing .NET's built-in support for asynchronous communication through pipes and channels, we've engineered a protocol that excels in handling high volumes of data efficiently and concurrently. These features allow for the seamless flow of data between sender and receiver, maximizing throughput while minimizing resource overhead. The result is a robust communication solution that harnesses the full potential of .NET's capabilities, ensuring optimal performance in various scenarios.
 
 ## Key Features
 * Fast and performant communication.
@@ -13,7 +13,7 @@ This Custom Raw Socket Protocol leverages the power of modern .NET technologies,
 * Benchmarked performance of handling 500,000 messages ('hello world' byte array) in 0.96 seconds on an Intel Core i7-12700 processor.
 ## Getting Started
 ### Prerequisites
-Before using the Custom Raw Socket Protocol, ensure you have the following prerequisites:
+Before using VortexTunnel Protocol, ensure you have the following prerequisites:
 
 * dotnet 7+
 
@@ -35,7 +35,7 @@ await vortex_socket.Send( System.Text.Encoding.UTF8.GetBytes("hello world"));
 
 ### Replay Attacks
 
-The Custom Raw Socket Protocol, while designed for high performance and secure communication, is susceptible to replay attacks. A replay attack occurs when an attacker intercepts and retransmits previously captured data packets, potentially causing unintended or malicious actions in the system.
+VortexTunnel Protocol, while designed for high performance and secure communication, is susceptible to replay attacks. A replay attack occurs when an attacker intercepts and retransmits previously captured data packets, potentially causing unintended or malicious actions in the system.
 
 To mitigate the risk of replay attacks, consider implementing additional security measures, such as:
 
