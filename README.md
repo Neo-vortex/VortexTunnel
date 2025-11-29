@@ -47,11 +47,14 @@ To mitigate the risk of replay attacks, consider implementing additional securit
 
 It is crucial to design your application to handle and detect replay attacks effectively, especially when dealing with sensitive or critical data. Understanding and addressing this security concern is essential to ensure the protocol's integrity and reliability.
 
-## Benchmark Results
-Our benchmarks show impressive performance:
+## Performance Comparison
 
-500,000 messages processed in 0.96 seconds on an Intel Core i7-12700 (both client and server on the same machine).
+| .NET Version | Messages Processed | Hardware                        | Time (seconds) | Notes                               |
+|--------------|--------------------|----------------------------------|-----------------|--------------------------------------|
+| .NET 7       | 500,000            | Intel Core i7-12700 (local mode) | **0.96**        | Baseline measurement                 |
+| .NET 10      | 500,000            | Intel Core i7-12700 (local mode) | **0.489**       | ~2× faster after upgrade             |
 
+**Overall Improvement:** ~49% reduction in processing time.
 
 Contributing
 The most welcome!
