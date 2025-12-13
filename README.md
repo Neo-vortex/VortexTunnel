@@ -15,7 +15,7 @@ VortexTunnel Protocol leverages the power of modern .NET technologies, specifica
 ### Prerequisites
 Before using VortexTunnel Protocol, ensure you have the following prerequisites:
 
-* dotnet 7+
+* dotnet 10.0+
 
 ### Installation
 just add VortexTunnel project to your target project.
